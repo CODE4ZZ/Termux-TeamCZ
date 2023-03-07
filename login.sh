@@ -36,24 +36,22 @@ if [[ \$pass == $password && \$user == $username ]]; then
 sleep 3
 clear
 cd $HOME
-cd Termux-Login
-cd Song
+cd Termux-TeamCZ
 python sound_effect.py
 clear
 cd $HOME 
 echo -e "\033[1m\033[33m
 
-██╗  ██╗ █████╗  ██████╗██╗  ██╗███████╗██████╗ 
-██║  ██║██╔══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗
-███████║███████║██║     █████╔╝ █████╗  ██████╔╝
-██╔══██║██╔══██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗
-██║  ██║██║  ██║╚██████╗██║  ██╗███████╗██║  ██║
-╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ 
+╔═══╦═══╦═╗╔═╦═╗─╔╦═══╦════╦╗─╔╗
+║╔═╗║╔═╗║║╚╝║║║╚╗║║╔═╗║╔╗╔╗║║─║║
+║╚══╣║─║║╔╗╔╗║╔╗╚╝║║─║╠╝║║╚╣╚═╝║
+╚══╗║║─║║║║║║║║╚╗║║╚═╝║─║║─║╔═╗║
+║╚═╝║╚═╝║║║║║║║─║║║╔═╗║─║║─║║─║║
+╚═══╩═══╩╝╚╝╚╩╝─╚═╩╝─╚╝─╚╝─╚╝─╚╝
 "
-echo -e  "     \e[1m\e[32m▂▃▄▅▆▇▓▒░ \033[1mCoded By \e[33mM4ND33P \e[1m\e[32m░▒▓▇▆▅▄▃▂"
+echo -e  "     \e[1m\e[32m▂▃▄▅▆▇▓▒░ \033[1mCoded By \e[33mSOMNATH/TEAM~CZ\e[1m\e[32m░▒▓▇▆▅▄▃▂"
 cd $HOME
-cd Termux-Login
-cd NETWORK
+cd Termux-TeamCZ
 python network.py
 echo -e "   \033[1m\033[33m]\033[31m─────────────────────────────────────\033[33m["
 echo 
@@ -77,7 +75,7 @@ shopt -s compat32
 shopt -s lithist
 comment
 cd $HOME
-cd Termux-Login
+cd Termux-TeamCZ
 cd
 else
 echo ""
